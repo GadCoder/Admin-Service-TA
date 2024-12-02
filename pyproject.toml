@@ -1,0 +1,15 @@
+[project]
+name = "admin-service-ta"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dependency-injector>=4.43.0",
+    "fastapi[standard]>=0.115.5",
+    "opentelemetry-instrumentation-fastapi>=0.49b2",
+    "opentelemetry-instrumentation-sqlalchemy>=0.49b2",
+    "python-dotenv>=1.0.1",
+    "requests>=2.32.3",
+    "sqlmodel>=0.0.22",
+]
